@@ -1,26 +1,24 @@
 require 'rails_helper'
 
-RSpec.describe "StaticPages", type: :request do
-
-  describe "GET /home" do
-    it "returns http success" do
-      get "/static_pages/home"
-      expect(response).to have_http_status(:success)
+RSpec.describe '静的ページ', type: :request do
+  describe 'トップページ' do
+    it '正常なレスポンスを返すこと' do
+      get root_path
+      expect(response).to have_http_status '200'
     end
   end
 
-  describe "GET /about" do
-    it "returns http success" do
-      get "/static_pages/about"
-      expect(response).to have_http_status(:success)
+  describe 'Cafe Logとは？ページ' do
+    it '正常なレスポンスを返すこと' do
+      get about_path
+      expect(response).to have_http_status '200'
     end
   end
 
-  describe "GET /terms" do
-    it "returns http success" do
-      get "/static_pages/terms"
-      expect(response).to have_http_status(:success)
+  describe '利用規約ページ' do
+    it '正常なレスポンスを返すこと' do
+      get use_of_terms_path
+      expect(response).to have_http_status '200'
     end
   end
-
 end
