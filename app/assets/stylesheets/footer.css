@@ -1,0 +1,29 @@
+.footer {
+  width: 100vw;
+  padding: 1vh 5vh;
+  color: #272727;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer-contents {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5vh;
+}
+
+.footer-link {
+  color: blue;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.logo-white {
+  width: 20vh;
+  vertical-align: bottom;
+}
+
+.footer>p {
+  font-size: 14px;
+}
