@@ -5,6 +5,7 @@
 .top-page-header {
   width: 100vw;
   padding: 1vh 15vw;
+  border-bottom: 1px solid #eaeaea;
   display: flex;
   flex-direction: column;
 }
@@ -58,6 +59,8 @@
   display: flex;
   min-width: 200px;
   list-style: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 .category-list {
@@ -75,6 +78,8 @@
   display: flex;
   list-style: none;
   align-items: flex-end;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 
@@ -89,6 +94,13 @@
 .logout {
   text-decoration: none;
   color: #333333;
+  width: 100%;
+  background: #FFD700;
+  border: 1px solid #FFD700;
+  color: black;
+  line-height: 48px;
+  cursor: pointer;
+  border-radius:30px;
 }
 
 .login {
@@ -96,9 +108,23 @@
   line-height: 32px;
   margin-right: 3vw;
   color: #333333;
+  width: 100%;
+  background: #FFD700;
+  border: 1px solid #FFD700;
+  color: black;
+  line-height: 48px;
+  cursor: pointer;
+  border-radius:30px;
 }
 
 .sign-up {
   text-decoration: none;
   color: #333333;
+  width: 100%;
+  background: #FFD700;
+  border: 1px solid #FFD700;
+  color: black;
+  line-height: 48px;
+  cursor: pointer;
+  border-radius:30px;
 }
