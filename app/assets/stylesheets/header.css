@@ -19,13 +19,13 @@
 .cafelog-icon {
   width: 10vw;
   margin-right: 10vw;
+  height: 30px;
 }
 
 .search-form {
   width: 65vw;
   height: 5vh;
   display: flex;
-  margin-bottom: 5px;
 }
 
 .search-form>.input-box {
@@ -52,7 +52,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
-  padding: 1vh 0;
 }
 
 .lists-left {
@@ -88,6 +87,7 @@
   margin-right: 3vw;
   color: #333333;
   font-weight: bold;
+  line-height: 48px;
 }
 
 
