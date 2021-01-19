@@ -6,5 +6,4 @@ Rails.application.routes.draw do
   get :use_of_terms, to: 'static_pages#terms'
 
   resources :cafes
-  end
 end
